@@ -1,35 +1,77 @@
+/* soft reset */
 * {
     padding: 0%;
     margin: 0%;
 }
 
+/* makes the links to the sections black*/
+a{
+text-decoration: solid black;   
+color: black; 
+}
+
+/* css for the header */
 .header {
 padding: 10px;
 background-color: #CF9FFF ;
 }
 
 ul {
-    padding: 0%;
-    margin-top: -10px;
-    margin-bottom: 4px;
-    list-style: none;
-    text-decoration: underline;
-    font-size:x-large;
-    font-weight: bolder;
-    display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
+padding: 0%;
+margin-top: -10px;
+margin-bottom: 4px;
+list-style: none;
+text-decoration: underline;
+font-size:x-large;
+font-weight: bolder;
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
 }
-
 
 .header ul li {
-    display: inline;
+display: inline;
 }
+
 .header h1 {
-    margin-bottom: 0%;
+margin-bottom: 0%;
 }
+
 .header h5{
-    margin-top: 0%;
-    margin-bottom: 0%;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+
+/* css for the about me section */
+#about-me  {
+margin-top: 25px;
+background-color: #734f96;
+padding: 10px;
+text-align: center;
+
+}
+.about-me{
+display: flex;
+background-color: #e6e6fa;
+border: 5px;
+border-color: #734f96;  
+}
+
+.about-me img {
+padding-left: 55px;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 15%;
+height: auto;
+}
+
+.about-me p {
+padding: 20px;
+margin-right: 35px;
+display: block;
+margin-block: auto;
+text-align: justify;
+font-size: x-large;
 }
