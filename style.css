@@ -24,7 +24,7 @@ color: black;
 padding: 10px;
 background-color: #CF9FFF ;
 }
-
+/* nav bar */
 .header ul {
 padding: 0%;
 margin-top: -10px;
@@ -42,11 +42,11 @@ display: flex;
 .header ul li {
 display: inline;
 }
-
+/* h1= my name */
 .header h1 {
 margin-bottom: 0%;
 }
-
+/* h5= portfolio */
 .header h5{
 margin-top: 0%;
 margin-bottom: 0%;
@@ -59,7 +59,7 @@ background-color: #e6e6fa;
 border: 5px;
 border-color: #734f96;  
 }
-
+/* image size and placment */
 .about-me img {
 padding-left: 55px;
 padding-top: 25px;
@@ -67,7 +67,7 @@ padding-bottom: 25px;
 width: 15%;
 height: auto;
 }
-
+/* paragraph display  */
 .about-me p {
 padding: 45px;
 margin-right: 35px;
@@ -78,6 +78,11 @@ font-size: x-large;
 }
 
 /* css for My Projects */
+.my-projects{
+background-color: #e6e6fa;
+padding-bottom: 15px;
+}
+
 .my-projects img {
 padding: 10px;
 margin-top: 15px;
@@ -85,7 +90,7 @@ background-color: #CF9FFF;
 height: 350px;
 width: 550px;
 }
-
+/* image spacing */
 #img1 {
     margin-left: 40px;
     margin-right: 19px; 
@@ -94,14 +99,14 @@ width: 550px;
     margin-left: 19px;
     margin-right: 40px;
 }
-
+/* css for contact info section */
 .contact-me ul {
     list-style: none;
-       
         font-size: x-large;
         font-weight: bolder;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
+        justify-content: space-evenly;
+}
+.contact-me{
+    background-color: #e6e6fa;
 }
