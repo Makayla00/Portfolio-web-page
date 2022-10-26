@@ -2,10 +2,19 @@
 * {
     padding: 0%;
     margin: 0%;
+     
+}
+
+/* section headers css design */
+#section-header  {
+margin-top: 50px;
+background-color: #734f96;
+padding: 10px;
+text-align: center;
 }
 
 /* makes the links to the sections black*/
-a{
+a {
 text-decoration: solid black;   
 color: black; 
 }
@@ -16,7 +25,7 @@ padding: 10px;
 background-color: #CF9FFF ;
 }
 
-ul {
+.header ul {
 padding: 0%;
 margin-top: -10px;
 margin-bottom: 4px;
@@ -43,15 +52,7 @@ margin-top: 0%;
 margin-bottom: 0%;
 }
 
-
 /* css for the about me section */
-#about-me  {
-margin-top: 25px;
-background-color: #734f96;
-padding: 10px;
-text-align: center;
-
-}
 .about-me{
 display: flex;
 background-color: #e6e6fa;
@@ -61,17 +62,46 @@ border-color: #734f96;
 
 .about-me img {
 padding-left: 55px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
 width: 15%;
 height: auto;
 }
 
 .about-me p {
-padding: 20px;
+padding: 45px;
 margin-right: 35px;
 display: block;
 margin-block: auto;
 text-align: justify;
 font-size: x-large;
+}
+
+/* css for My Projects */
+.my-projects img {
+padding: 10px;
+margin-top: 15px;
+background-color: #CF9FFF;
+height: 350px;
+width: 550px;
+}
+
+#img1 {
+    margin-left: 40px;
+    margin-right: 19px; 
+}
+#img2 {
+    margin-left: 19px;
+    margin-right: 40px;
+}
+
+.contact-me ul {
+    list-style: none;
+       
+        font-size: x-large;
+        font-weight: bolder;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
 }
